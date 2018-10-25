@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/RabbeatChen/match-chat/issues"
   },
-  "homepage": "https://github.com/RabbeatChen/match-chat#readme"
+  "homepage": "https://github.com/RabbeatChen/match-chat#readme",
+  "dependencies": {
+    "vue": "^2.5.17"
+  }
 }
