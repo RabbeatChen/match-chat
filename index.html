@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>match-chat</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        :root {
+            --button-height: 50px;
+            --font-size: 14px;
+        }
+    </style>
+    <style>
+        .g-btn {
+            font-size: var(--button-height);
+            height: var(--font-size);
+            padding: 0 1em;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    {{message}}
+    <g-btn></g-btn>
+</div>
+
+<script src="./node_modules/vue/dist/vue.min.js"></script>
+<script src="./button.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data:{
+            message: 'hello,world'
+        }
+    })
+</script>
+
+</body>
+</html>
